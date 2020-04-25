@@ -10,12 +10,12 @@ import lombok.ToString;
 public class PatientCommand {
 
 	public PatientCommand() {
-		System.out.println("PatientCommand.PatientCommand()");	}
-
+		System.out.println("PatientCommand.PatientCommand()");
+	}
 	private String patName;
 	private int age;
 	private String location;
 	private String hospital;
-
-
+	
+	
 }
