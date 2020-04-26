@@ -16,6 +16,7 @@ public class PatientCommand {
 	private int age;
 	private String location;
 	private String hospital;
+	private String vflag="no";
 	
 	
 }
