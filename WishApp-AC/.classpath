@@ -13,90 +13,68 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/commons-logging-1.2.1.1.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-aop-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-beans-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-context-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-core-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-expression-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-jdbc-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-jms-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-messaging-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-orm-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-oxm-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-test-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-tx-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-web-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-webflux-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-webmvc-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/Projects/IOCLibrary/spring-websocket-5.2.3.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-aop-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-aop-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-aop-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-aspects-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-aspects-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-aspects-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-beans-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-beans-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-beans-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-indexer-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-indexer-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-indexer-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-support-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-support-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-context-support-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-core-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-core-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-core-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-expression-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-expression-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-expression-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-instrument-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-instrument-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-instrument-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jcl-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jcl-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jcl-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jdbc-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jdbc-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jdbc-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jms-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jms-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-jms-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-messaging-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-messaging-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-messaging-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-orm-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-orm-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-orm-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-oxm-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-oxm-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-oxm-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-test-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-test-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-test-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-tx-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-tx-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-tx-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-web-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-web-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-web-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-webflux-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-webflux-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-webflux-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-webmvc-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-webmvc-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-webmvc-5.2.3.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-websocket-5.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-websocket-5.2.3.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/spring-5.2.3.RELEASE-dist/spring-framework-5.2.3.RELEASE/libs/spring-websocket-5.2.3.RELEASE-sources.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
