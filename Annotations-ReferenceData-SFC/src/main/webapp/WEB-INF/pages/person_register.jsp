@@ -6,7 +6,8 @@
 <h1 style="color: blue; text-align: center">Person Registration</h1>
 
 <form:form modelAttribute="perCmd">
-
+<p style="color:red"/>
+<form:errors path="*"/>
 	<table align="center">
 
 		<tr>

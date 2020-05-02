@@ -14,10 +14,10 @@ public class PersonCommand {
 	}
 	private String name;
 	private int age;
-	private String gender;
-	private String hobies[];
-	private String courses[];
-	private String qualification;
+	private String gender="male";
+	private String hobies[]= {"meditation"};
+	private String courses[]={"java","oracle"};
+	private String qualification="B.Tech";
 	
 	
 }

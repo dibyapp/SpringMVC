@@ -2,16 +2,24 @@ package com.dib.controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import com.dib.command.PersonCommand;
+import com.dib.validator.Validator;
 
 @Controller
 public class PersonProfileController
 {
+	@Autowired
+	private Validator validator;
+	
 	@ModelAttribute("gendersList")
 	public List<String> populateGender()
 	{
@@ -64,5 +72,14 @@ public class PersonProfileController
 		return "person_register";
 	}
 	
-
+	@PostMapping("/register.htm")
+	public String processForm(Map<String,Object>map,@ModelAttribute("perCmd")PersonCommand cmd,BindingResult errors) {
+		if(validator.supports(cmd.getClass())) {
+			validator.validate(cmd, errors);
+			if(errors.hasErrors()) {
+				return "person_register";
+			}
+		}
+		return "show_result";
+	}
 }
